@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp -f bootswatch/cosmo/*.less bootstrap/less
+lessc --verbose bootstrap/less/bootstrap.less > resources/public/bootswatch.css
+cp -f resources/public/bootswatch.css html

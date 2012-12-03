@@ -1,4 +1,6 @@
-## Wrap lines in vim
+# Vim
+
+## Wrap lines
     :set textwidth=80
 Mark region `gq`
 
