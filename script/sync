@@ -1,4 +1,4 @@
 #!/bin/bash
 
 script/build
-scp html/* resources/public/* kocubinski@foundquartz.com:dev/pinekoan/html
+scp html/* kocubinski@foundquartz.com:dev/pinekoan/html

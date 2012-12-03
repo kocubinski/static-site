@@ -5,3 +5,5 @@ do
   echo Processing $f ...
   python script/gen-html.py $f > html/`basename $f .mkd`.html
 done
+
+cp resources/public/* html
