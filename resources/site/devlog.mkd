@@ -1,0 +1,14 @@
+## Wrap lines in vim
+    :set textwidth=80
+Mark region `gq`
+
+## Prepend character(s) to every line in a region
+* Use Ctrl+V to select the first column of text in the lines you want to comment.
+  (Ctrl+Q on gVim)
+* Then hit Shift+i and type the text you want to insert.
+* Then hit Esc, wait 1 second and the inserted text will appear on every line.
+
+## Find and replace in a region
+* Visual select with V
+* Escape to deselec region
+* Use \%V atom in find/replace command like: :%s/\%Vfoo/bar/g
