@@ -13,4 +13,59 @@ Mark region `gq`
 ## Find and replace in a region
 * Visual select with V
 * Escape to deselec region
-* Use \%V atom in find/replace command like: :%s/\%Vfoo/bar/g
+* Use \%V atom in find/replace command like: :%s/\%Vfoo/bar/g    
+
+---
+# Mercurial
+
+[http://dev.lshift.net/paul/mercurial-server/docbook.html](http://dev.lshift.net/paul/mercurial-server/docbook.html)
+Covers basically all hg admin tasks. 
+
+---
+# Emacs
+
+## Tramp
+Having problems with ```C-x C-f``` when using tramp, use:
+
+    M-x tramp-cleanup-all-connections
+
+## Rename an open file
+[http://stackoverflow.com/questions/384284/can-i-rename-an-open-file-in-emacs](http://stackoverflow.com/questions/384284/can-i-rename-an-open-file-in-emacs)
+
+---
+# Altera/Quartus
+
+## jtagserver.exe not starting
+
+(Taken from http://www.alteraforum.com/forum/showthread.php?t=36775)
+
+I have a new solution for those of you who cannot get it to work:
+
+This applies to you if: You have the Altera USB blaster or other programmer
+drivers installed as expected, and it shows up in device manager under USB
+without a yellow mark. You have a 64 bit version of Windows You have a 32 bit
+version of quartus
+
+The symptoms are that a USB blaster (or any other type of programmer) does not
+show up in the programmer in Quartus II version 12.
+
+The problem is the programmer service (jtagserver.exe) cannot be installed
+because it is missing tbbmalloc_proxy.dll and tbbmalloc.dll. There is no good
+reason the jtag server should need tbb - it isn't exactly a performance critical
+component! This problem occurred during installation of quartus, but no warning
+was shown.
+
+To fix it, grab the required files from here:
+[http://www.omattos.com/quartus12fix.zip](http://www.omattos.com/quartus12fix.zip)
+
+Extract to C:/altera/12.0/quartus/bin64
+
+Next, install the jtag server as it should have been during installation: 
+Start > search for "command prompt" > right click it and "run as administrator" > type
+the following commands:
+
+    cd C:/altera/12.0/quartus/bin64
+    jtagserver --install
+    jtagserver --start
+
+Now all should work as expected!

@@ -6,4 +6,4 @@ do
   python script/gen-html.py $f > html/`basename $f .mkd`.html
 done
 
-cp resources/public/* html
+cp -f resources/public/* html
