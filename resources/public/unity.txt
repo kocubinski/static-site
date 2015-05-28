@@ -1,1 +1,3 @@
 http://udn.epicgames.com/Three/NetworkingOverview.html#Player%20Movement%20and%20Prediction
+https://github.com/MrJoy/UnityREPL
+http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/

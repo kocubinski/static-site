@@ -1,0 +1,20 @@
+Disucssion of available drivers for the FTDI232R USB UART chip.
+
+# D2XX 
+D2XX drivers allow direct access to the USB device through a DLL.  Application
+software can access the USB device through a series of DLL function calls.  
+
+Uses FTD2XX.DLL.
+
+The D2XX interface provides special functions that are not available in standard
+operating system COM port APIs, such as setting the device into a different mode
+or writing data into the device EEPROM.
+
+In the case of the FTDI drivers for Windows, the D2XX driver and VCP driver are
+distributed in the same driver package, called the Combined Driver Model (CDM)
+package.
+
+# VCP
+Virtual COM port (VCP) drivers cause the USB device to appear as an additional
+COM port available to the PC.  Application software can access the USB device in
+the same way as it would access a standard COM port.

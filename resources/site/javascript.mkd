@@ -1,0 +1,14 @@
+# Javascript notes
+
+---
+
+## Links
+* [http://stackoverflow.com/questions/8542746/store-json-object-in-data-attribute-in-html-jquery](http://stackoverflow.com/questions/8542746/store-json-object-in-data-attribute-in-html-jquery)
+* [Javascript 'filter' usage](http://stackoverflow.com/questions/4492040/select-element-with-specific-data-by-using-jquery)
+
+## SPA (Single Page Applications)  
+* Classic modern model of rich client with an AJAX API.
+* [http://www.asp.net/single-page-application](http://www.asp.net/single-page-application)
+* [http://www.johnpapa.net/inside-the-asp-net-single-page-apps-template/](http://www.johnpapa.net/inside-the-asp-net-single-page-apps-template/)
+* [pager.js for routing](http://pagerjs.com/)
+* [sammy.js for routing](http://sammyjs.org/)

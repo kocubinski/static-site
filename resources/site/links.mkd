@@ -1,0 +1,44 @@
+# Links
+   
+## Programming
+* [Live markdown parser](http://daringfireball.net/projects/markdown/dingus)
+* [Responsive Web Design - Advanced Lesson](http://learn.shayhowe.com/advanced-html-css/responsive-web-design)
+* [texlive.js - LaTex from the browser](http://manuels.github.com/texlive.js/website/)
+* [The inverse of IOC is control - is IOC really useful? (or why Java's Spring sucks)](http://comoyo.github.com/blog/2013/02/06/the-inverse-of-ioc-is-control/)
+* [Using emacs as C++ IDE](http://stackoverflow.com/questions/63421/using-emacs-as-an-ide)
+* [A 4 year CS curriculum on Coursera](http://www.thesimplelogic.com/2012/09/24/you-say-you-want-an-education/)
+* [Introduction to Graph Theory: Finding the Shortest Path](http://maxburstein.com/blog/introduction-to-graph-theory-finding-shortest-path/)
+* [A Great read on Mathematics on programming](http://jeremykun.com/2013/02/08/why-there-is-no-hitchhikers-guide-to-mathematics-for-programmers/)
+* [Setting up a cloud dev box on Amazon EC2](http://blog.michaelckennedy.net/2011/06/13/building-a-cloud-os-for-net-developers-part-2/)
+* [An amazing email thread about org-mode and Evernote and how my life should be organized](http://lists.gnu.org/archive/html/emacs-orgmode/2012-09/msg01163.html)
+
+## Unity
+* [Stack overflow question about engine calls](http://stackoverflow.com/questions/12274252/how-to-implement-unity-like-intenal-call-with-mono)  
+* [Embedding mono in C](http://www.mono-project.com/Embedding_Mono#Exposing_C_code_to_the_CIL_universe)  
+* [Embedding code example on github](https://github.com/mono/moon/blob/8d8ece884382d653d215b0da5bf633079566d816/src/deployment.cpp#L579)
+* [Unity REPL](https://github.com/MrJoy/UnityREPL)
+* [Someone's opinion on Unity Best Practices](http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/)   
+
+On networking in Unity:  
+
+* [UDN on Player Movement and Prediction](http://udn.epicgames.com/Three/NetworkingOverview.html#Player%20Movement%20and%20Prediction)
+* [Valve - Source Multiplayer Networking](http://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking)
+* [Valve - Lag Compensation](http://developer.valvesoftware.com/wiki/Lag_Compensation)
+* [Valve - Working with Prediction](http://developer.valvesoftware.com/wiki/Working_With_Prediction)
+
+## C Sharp
+* [Write-up on dot42 Android Dalvik Runtime C# compiler](http://www.infoq.com/news/2013/02/dot42)
+* [dot42](http://www.dot42.com)
+
+## ASP.NET
+* [ASP.NET Tutorial by Erik Reitan](http://www.asp.net/web-forms/tutorials/aspnet-45/getting-started-with-aspnet-45-web-forms/introduction-and-overview)
+
+## Lifting
+* [Thread about SI joint pain](http://forum.bodybuilding.com/showthread.php?t=121073301&page=1)
+* [SI Joint reset instructions [youtube]](http://www.youtube.com/watch?v=mT0bR8U8SvE) Used this, it works. No idea about side-effects though.
+
+## Body/Mind
+* Its "weird" but maybe its possible: [Alternate sleep cycles](http://www.highexistence.com/alternate-sleep-cycles/)
+* Good read: [Life secrets and tips](http://www.highexistence.com/life-secrets-and-tips/)
+* [Super Memory: Forget about forgetting](http://www.supermemo.com/index.htm)
+* [Wozniak: Good sleep, good learning, good life](http://www.supermemo.com/articles/sleep.htm#Free%20running%20sleep)

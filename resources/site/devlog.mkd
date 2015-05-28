@@ -69,3 +69,7 @@ the following commands:
     jtagserver --start
 
 Now all should work as expected!
+
+---
+# Linux
+[Howto: Use tar Command Through Network Over SSH Session](http://www.cyberciti.biz/faq/howto-use-tar-command-through-network-over-ssh-session/)

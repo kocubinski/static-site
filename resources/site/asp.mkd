@@ -1,0 +1,42 @@
+# ASP.NET   
+  
+Different frameworks:  
+
+* [Web Pages](http://www.asp.net/web-pages) - simple. HTML + server code, similar to PHP style.
+* [Web Forms](http://www.asp.net/web-forms) - WPF, WinForms like.
+* [MVC](https://www.asp.net/mvc) - All the modern bells and whistles.
+
+## Web Forms
+* [Getting Started with ASP.NET Web Forms by Erik Reitan](http://www.asp.net/web-forms/tutorials/aspnet-45/getting-started-with-aspnet-45-web-forms/introduction-and-overview)  
+
+Uses Entity Framework  
+LINQ to SQL  
+`<asp:ListView/>` and similar controls  
+Similar to WPF DataBinding, uses `SelectedMethod` XML attr to set up collections.  
+Uses familiar `<ItemTemplate />` to format ListViews, GridViews.  
+Embed C# with `<% ... %>` in .chtml pages.  
+Master tempaltes define Page templates for views.  
+Wires DOM elements to HTTP POST or GET.  
+Like WPF/WinForms on top of HTML/HTTP.
+
+
+## MVC
+Paths dispatched to `Controller` methods using reflection and the `HTMLHelper` type
+
+## SPA (Single Page Applications)  
+* Classic modern model of rich client with an AJAX API.
+* [http://www.asp.net/single-page-application](http://www.asp.net/single-page-application)
+* [http://www.johnpapa.net/inside-the-asp-net-single-page-apps-template/](http://www.johnpapa.net/inside-the-asp-net-single-page-apps-template/)
+
+
+## Entity Framework  
+For setting up a code first data model for deployment (also helpful locally) the 3
+following PowerShell commands are crucial (exeucted from the NuGet shell):
+
+    enable-migrations -ContextTypeName <context_type>
+    add-migration Initial
+    update-database
+
+where `<context_type>` is something like `orgnet.Models.OrgContext`.  
+You will then be able to deploy to WindowsAzure, whose services will populate
+the database for you with EF CodeFirst migrations.
